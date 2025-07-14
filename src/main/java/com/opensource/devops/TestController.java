@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping
     public String hello() {
-        return "Service is up Sudhanshu!";
+        return "Service is up Dench Infotech!";
     }
 }
 
