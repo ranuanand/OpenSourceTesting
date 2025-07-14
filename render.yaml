@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spring-webservice
+    env: java
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
+    branch: main
+    plan: free
